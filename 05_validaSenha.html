@@ -6,10 +6,18 @@
     */
 
     //Entrada
-
-
+    let senha = 5678;
+    let perg = Number(prompt(`Informe a senha:`).trim());
+                                                                                          
     //Processamento
-
+    while (senha != perg) {
+        alert(`Senha Incorreta!`);
+        perg = Number(prompt(`Informe a senha:`).trim());
+    }
+    while(senha == perg){
+        alert(`Senha Correta`);
+        perg = Number(prompt(`Informe a senha:`).trim());
+    }
 
     //Saída
 

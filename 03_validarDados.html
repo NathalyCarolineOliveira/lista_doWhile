@@ -11,9 +11,35 @@
     */
 
     //Entrada
+    let nome = (prompt(`Qual seu nome?`).trim());
+    while(nome.lengh < 3){
+        nome = (prompt(`Qual seu nome?`).trim());
 
+    }
+    let idade = Number(prompt(`Qual sua idade`).trim());
+    while(idade < 0 || idade > 150){
+        idade = Number(prompt(`Qual sua idade`).trim());
+    }
+    let salario = Number(prompt(`Qual seu salario`).trim());
+    while( salario < 0){
+        salario = Number(prompt(`Qual seu salario`).trim());
+    }
+    let sexo = (prompt(`Qual seu sexo 'F' ou 'M'?`).trim().toUpperCase());
+    while(sexo != "F" && sexo != "M"){
+        sexo = (prompt(`Qual seu sexo 'F' ou 'M'?`).trim().toUpperCase);
+    }
+    let est = (prompt(`Qual o estado Civil: 'S', 'C', 'V', 'D'?`).trim().toUpperCase());
+    while(est != "S" && est != "C" && est != "V" && est != "D"){
+        est = (prompt(`Qual o estado Civil: 'S', 'C', 'V', 'D'?`).trim().toUpperCase());
+    }
 
     //Processamento
+
+
+
+
+
+
 
 
     //Saída
